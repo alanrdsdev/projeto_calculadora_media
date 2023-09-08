@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+    padding-left: 342px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.body {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: #d8d8d8;
+    border-color: #0d0101;
+    border-radius: 10px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 160px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    display: inline;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.imageLogo {
+    width: 99px;
+    height: 99px;
+    padding-top: -200px;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+
+.form #nomeAtividade {
+    text-align: center;
+    font-size: 15px;
+    width: 256.5px;
+    height: 32.5px;
+    margin-top: 50px;
+    margin-left: 4px;
+    margin-bottom: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px rgb(126, 126, 126);
+}
+
+.form #notaAtividade {
+    text-align: center;
+    font-size: 15px;
+    width: 99.5px;
+    height: 32.5px;
+    margin-top: 50px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px rgb(126, 126, 126);
+}
+
+.form button {
+    color: #cacaca;
+    background-color: rgb(0, 94, 0);
+    font-size: 15px;
+    width: 99.5px;
+    height: 32.5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px rgb(126, 126, 126);
+}
+
+button:hover {
+    background-color: rgb(0, 160, 0);
+    color:#ffffff;
+    transition: all 0.2s ease-in; 
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.form #notaAtividade:hover, #nomeAtividade:hover {
+    transition: all 0.2s ease-in;
+    transform: scale(1.02);
+}
+
+.tabelaAtividade {
+    display: flexbox;
+    background-color: #ffffff;
+    padding: 10px 4px;
+    margin: 1px;
+    margin-top: -200px;
+    margin-left: 4px;
+    width: 550px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px rgb(126, 126, 126);
+}
+
+table th {
+    border-bottom: 3px solid #0d0101;
+}
+
+table td {
+    border-bottom: 2px solid #d8d8d8
+}
+
+.tabelaAtividade #nomeAtiv {
+    font-size: 15px;
+    padding-right: 135px;
+}
+
+.tabelaAtividade #notaAtiv {
+    font-size: 15px;
+}
+
+.tabelaAtividade #Aprovado {
+    font-size: 15px;
+    padding-left: 135px;
+}
+
+.tabelaAtividade #imgAprove, #imgReprove {
+    width: 30px;
+    height: 30px;
+    margin-left: 160px;
+}
+
+.tabelaAtividade #media, #mediaFinal, #aprovOUreprov {
+    padding-top: 30px;
+}
+
+.tabelaAtividade #mediaFinal {
+    margin-left: 135px;
+}
+
+.resultado {
+    padding-left: 135px;
+    color: rgb(0, 0, 0);
+}
+
+.aprovado {
+    padding: 2px;
+    border-radius: 2px;
+    color: white;
+    background-color: green;
+}
+
+.reprovado {
+    padding: 2px;
+    border-radius: 2px;
+    color: white;
+    background-color: red;
+}

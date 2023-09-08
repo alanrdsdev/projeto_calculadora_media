@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de médias</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="container">
+    <section id="projeto">
+        <div class="body">
+            <header>
+                <img  class="imageLogo" src="images/logo.png" alt="logo">
+                <div class="cabecalho">
+                    <h1>Calculadora de médias</h1>
+                </div>
+            </header>
+            <section id="formulario">
+                <div class="form">
+                    <form id="formAtividades">
+                        <input type="text" id="nomeAtividade" required placeholder="Nome da atividade">
+                        <input type="number" id="notaAtividade" required placeholder="Nota" min="0" max="10">
+                        <button type="submit" id="adicionar">Adicionar +</button>
+                    </form>
+                </div>
+            </section>
+            <section id="tabela">
+                <div class="tabelaAtividade">
+                    <table cellspacing="">
+                        <thead>
+                            <tr>
+                                <th id="nomeAtiv">Nome da atividade</th>
+                                <th id="notaAtiv">Nota</th>
+                                <th id="Aprovado">Aprovado?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td id="media">Média final</td>
+                                <td id="mediaFinal">---</td>
+                                <td  class="resultado" id="aprovOUreprov">---</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+        </div> 
+    </section>
+    <script src="index.js"></script>
+</body>
+    
+
+</html>
